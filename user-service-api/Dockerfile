@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:22.16.0-alpine
 WORKDIR /app
 ADD package*.json ./
 RUN npm install
